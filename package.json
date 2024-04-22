@@ -1,7 +1,7 @@
 {
   "homepage": "https://Ohfelix.github.io/meunegocio",
   "name": "meunegocio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
