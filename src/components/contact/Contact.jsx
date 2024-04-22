@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+/* import emailjs from '@emailjs/browser'; */
 import "./contact.css";
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
         form.current,
         "vxDcl4UI2jbOQBn6f"
       )
-      e.target.reset()
+    e.target.reset()
   };
 
   return (
