@@ -18,10 +18,10 @@ const About = () => {
 
           <p className="about__description">
             Desenvolvedor fullstack, crio páginas web com interface de usuário
-            responsivas, Tenho alguns anos de experiência e estou buscando muitos clientes que queiram melhorar os resultados de seus negocios.
+            responsivas, Tenho alguns anos de experiência e estou buscando clientes que queiram melhorar os resultados de seus negocios.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          {/*  <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               class="button__icon"
@@ -48,7 +48,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

@@ -50,36 +50,29 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Avaliamos a necesidade do seu negocio
+                    Avaliamos a necessidade do seu negócio
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenhamos juntos seu plano de negocio.</p>
+                  <p className="services__modal-info">Desenhamos juntos seu plano de negócio.</p>
                 </li>
-
-
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Posiciono sua empresa no google negocios.
+                    Posicionamos sua empresa no Google Negócios.
                   </p>
                 </li>
-
-                {/*    <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Desenhamos juntos seu plano de negocio.
-                  </p>
-                </li> */}
               </ul>
+
+
+              <button className="services__modal-close-button" onClick={() => toggleTab(0)}>x</button>
             </div>
           </div>
+
         </div>
-
-
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
@@ -139,13 +132,15 @@ const Services = () => {
                   </p>
                 </li>
 
-                {/*   <li className="services__modal-service">
+                <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Design and mockups of products for companies.
                   </p>
-                </li> */}
+                </li>
               </ul>
+
+              <button className="services__modal-close-button" onClick={() => toggleTab(0)}>x</button>
             </div>
           </div>
         </div>
@@ -155,3 +150,7 @@ const Services = () => {
 };
 
 export default Services;
+
+
+
+{/*  */ }

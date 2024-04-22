@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Leandro Felix </h1>
-
+        <h1 className="footer__title">Midias sociais </h1>
+        <span className="section__subtitle"></span>
         {/*    <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">

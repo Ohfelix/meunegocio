@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Entrar em contato</h2>
-      <span className="section__subtitle">Contato</span>
+
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -50,7 +50,7 @@ const Contact = () => {
               <span className="contact__card-data">(11) 95139-3052</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=11951393052&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=5511951393052&text= Ola, Gostaria de mais informações !"
                 className="contact__button"
               >
                 Mande um mensagem no Whats'up{" "}
