@@ -50,48 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-
-                <h3 className="qualification__title">Engenharia de Software</h3>
-                <span className="qualification__subtitle">Faculdade Estacio</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"> 3º semestre</i>
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <br />
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <br />
-                <h3 className="qualification__title">Desenvolvedor Fullstack</h3>
+                <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle">
-                  Progamador Br
+                  Spain - Institute
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022
-                </div>
-              </div>
-              <br />
-            </div>
-
-            <div className="qualification__data">
-              <div>
-
-                <h3 className="qualification__title">Tecnico em Automação Industrial</h3>
-                <span className="qualification__subtitle">
-                  Etec Julio de Mesquita
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>  2019 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -105,20 +69,52 @@ const Qualification = () => {
               <div></div>
 
               <div>
-                <br />
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Art Director</h3>
+                <span className="qualification__subtitle">
+                  Spain - Institute
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Web Development</h3>
+                <span className="qualification__subtitle">
+                  Spain - Institute
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
                 <span className="qualification__rounder"></span>
               </div>
 
               <div>
-                <br />
-                <h3 className="qualification__title">Eletricista Instalador</h3>
-
+                <h3 className="qualification__title">UX Expert</h3>
                 <span className="qualification__subtitle">
-                  Senai - Armando Arruda
+                  Spain - Institute
                 </span>
-                <br />
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>160 - Horas
+                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
                 </div>
               </div>
             </div>

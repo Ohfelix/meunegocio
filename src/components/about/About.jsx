@@ -1,14 +1,14 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/leandrocv.pdf";
+import CV from "../../assets/Smith-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">Sobre</h2>
-      <span className="section__subtitle">Introdução</span>
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,8 +17,9 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            "Meu nome é Leandro, tenho 33 anos e sou casado há 8 anos. Atualmente, moro no ABC Paulista, em São Paulo. Depois de muitos anos atuando no ramo industrial e de concluir o curso técnico em Automação Industrial, onde tive contato com a linguagem C, percebi as oportunidades que o mundo da tecnologia pode oferecer.
-            Há 3 anos, venho estudando desenvolvimento de software. Inicialmente, fiz o curso de programador Full Stack com Igor Oliveira, o que me proporcionou uma base sólida e uma rota de estudos centrada na linguagem JavaScript. Desde então, tenho me especializado no desenvolvimento de aplicações mais robustas utilizando a stack MERN. Agora, estou capacitado para construir aplicações Full Stack."
+            Frontend developer, I create web pages with UI / UX user interface,
+            I have years of experience and many clients are happy with the
+            projects carried out.
           </p>
 
           <a download="" href={CV} className="button button--flex">

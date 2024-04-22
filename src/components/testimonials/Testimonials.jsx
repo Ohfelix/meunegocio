@@ -1,15 +1,15 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Data } from "./Data";
-
 import "./testimonial.css";
+import { Data } from "./Data";
 // Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
+import { Pagination } from "swiper";
 
 const Testimonials = () => {
   return (
@@ -34,7 +34,7 @@ const Testimonials = () => {
             spaceBetween: 48,
           },
         }}
-        modules={[]}
+        modules={[Pagination]}
       >
         {Data.map(({ id, image, title, description }) => {
           return (
