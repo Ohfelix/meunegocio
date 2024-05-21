@@ -33,7 +33,7 @@
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .nav__icon,
@@ -74,7 +74,7 @@
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
+        transition: 0.3s;
     }
 
     /* Show Menu */
@@ -95,7 +95,7 @@
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        bottom: .5rem;
+        bottom: 0.5rem;
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);

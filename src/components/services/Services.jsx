@@ -9,143 +9,69 @@ const Services = () => {
   };
 
   return (
-    <section className="services section" id="services">
-      <h2 className="section__title">Serviços</h2>
-      <span className="section__subtitle">O que eu posso oferecer</span>
+    <div className="skills__content">
+      <h3 className="skills__title">Frontend developer</h3>
 
-      <div className="services__container container grid">
-        <div className="services__content">
-          <div>
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Product <br /> Designer
-            </h3>
-          </div>
+      <div className="skills__box">
+        <div className="skills__group">
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            Veja mais
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 1
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
-
-              <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">
-                Serviço com mais de 3 anos de experiência. Oferecendo qualidade
-                trabalho para clientes e empresas.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Avaliamos a necessidade do seu negócio
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenhamos juntos seu plano de negócio.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Posicionamos sua empresa no Google Negócios.
-                  </p>
-                </li>
-              </ul>
-
-
-              <button className="services__modal-close-button" onClick={() => toggleTab(0)}>x</button>
+            <div>
+              <h3 className="skills__name">HTML</h3>
+              <span className="skills__level">Intermediario</span>
             </div>
           </div>
 
-        </div>
-        <div className="services__content">
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Web/App <br /> Designer
-            </h3>
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">CSS</h3>
+              <span className="skills__level">Basico</span>
+            </div>
           </div>
 
-          <span onClick={() => toggleTab(3)} className="services__button">
-            Veja mais
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
 
-          <div
-            className={
-              toggleState === 3
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
+            <div>
+              <h3 className="skills__name">JavaScript</h3>
+              <span className="skills__level">Intermediario</span>
+            </div>
+          </div>
+        </div>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">
-                Serviço com mais de 3 anos de experiência. Oferecendo qualidade
-                trabalho para clientes e empresas.
-              </p>
+        <div className="skills__group">
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
 
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Desenvolvimento de Web page .
-                  </p>
-                </li>
+            <div>
+              <h3 className="skills__name">Bootstrap</h3>
+              <span className="skills__level">Intermediario</span>
+            </div>
+          </div>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenvolvimento de app mobile.</p>
-                </li>
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Criação de elementos interativos.
-                  </p>
-                </li>
+            <div>
+              <h3 className="skills__name">Tailwind CSS</h3>
+              <span className="skills__level">Basico</span>
+            </div>
+          </div>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Publicação do seu produto na internet.
-                  </p>
-                </li>
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
-                </li>
-              </ul>
-
-              <button className="services__modal-close-button" onClick={() => toggleTab(0)}>x</button>
+            <div>
+              <h3 className="skills__name">React</h3>
+              <span className="skills__level">Intermediario</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

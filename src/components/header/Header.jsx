@@ -22,6 +22,7 @@ const Header = () => {
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
@@ -71,11 +72,11 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                <i className="uil uil-briefcase-alt nav__icon"></i> Serviços
               </a>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
@@ -87,7 +88,7 @@ const Header = () => {
               >
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
               </a>
-            </li>
+            </li> */}
 
             <li className="nav__item">
               <a
