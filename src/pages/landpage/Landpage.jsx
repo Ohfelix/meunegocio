@@ -15,7 +15,7 @@ const Landpage = () => {
                 <Home />
                 <About />
                 <Skills />
-                <Services />
+                {/*  <Services /> */}
                 <Qualification />
                 <Contact />
             </main>
