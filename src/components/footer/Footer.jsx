@@ -3,6 +3,7 @@ import "./footer.css";
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
+import { FaGlobe } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -32,11 +33,11 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/oleandrofelix/"
+            href="https://felix-portfolio-pied.vercel.app/"
             className="footer__social-link"
             target="_blank"
           >
-            <CiInstagram />
+            <FaGlobe />
             <i className="bx bxl-facebook"></i>
           </a>
 

@@ -16,6 +16,7 @@
     "bootstrap": "^5.3.3",
     "email-js": "^2.0.3",
     "emailjs": "^4.0.3",
+    "meunegocio": "file:",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",

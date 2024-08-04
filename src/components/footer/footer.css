@@ -1,10 +1,14 @@
 .footer {
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent overflow */
+    padding: 0 20px; /* Add padding to prevent edge collision */
 }
 
 .footer__container {
     padding: 2rem 0 6rem;
+    max-width: 1200px; /* Ensure the container does not exceed screen width */
+    margin: 0 auto; /* Center the container */
 }
 
 .footer__title,
@@ -63,4 +67,4 @@
         border-radius: 0.25rem;
         font-size: 1rem;
     }
-  }
+}
