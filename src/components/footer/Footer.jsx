@@ -4,6 +4,7 @@ import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
 import { FaGlobe } from "react-icons/fa";
+import { MdOutlineStorefront } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -56,6 +57,14 @@ const Footer = () => {
             target="_blank"
           >
             <CiYoutube />
+            <i className="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://storewd.company.site/"
+            className="footer__social-link"
+            target="_blank"
+          >
+            <MdOutlineStorefront />
             <i className="bx bxl-twitter"></i>
           </a>
         </div>
